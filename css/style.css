@@ -1,0 +1,94 @@
+:root {
+    --blue: #131c29;
+    --orange:#ff8901;
+    --bg:   #f5f6f8;
+    --btn:  #213349;
+    --date: #b88546;
+    --date2: #bc6142;
+    --date3: #bd425e;
+    --bottomSec: #0b1016;
+    --raidalg: radial-gradient(
+        at top center,
+        #335379,
+        var(--blue) 65%
+        );
+    --font: 'Oswald', sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+    .top-header {
+        background-color: var(--blue);
+    }
+
+    .th-link {
+        color: #555;
+    }
+
+    .th-text {
+        margin-top: 9px;
+    }
+
+    .slider {
+        border-radius: 50%;
+        background-color: #999;
+        height: 25px;
+        width: 25px;
+    }
+
+    .slider:hover {
+        background-color: orange;
+    }
+
+    .bh-link {
+        border-radius: 5px;
+        background-color: var(--btn);
+        color: var(--bg);
+        margin: 0 3px;
+    }
+
+    .th-link {
+        border-right: 1px solid #555
+    }
+
+    .services-link {
+        color: var(--bg);
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .top-section {
+        background-color: var(--blue);
+        background-image: var(--raidalg);
+    }
+
+    .opp-text {
+        color: var(--bg);
+    }
+
+    .footer-h3, .footer-h2 {
+        color: var(--bg);
+    }
+
+    .bottom-section {
+        background-color: var(--bottomSec)
+    }
+
+    .colophon {
+        margin: 0;
+    }
+
+    .colophon, .bs-colophon-text {
+        color: #555;
+    }
+
+    .bs-colophon-text {
+        text-decoration: none;
+    }
+
+    .date-div {
+        
+    }
+
+
+
